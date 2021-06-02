@@ -11,7 +11,7 @@ class Circle():
     def __init__(self, radius):
         self.radius = radius
     def area(self):
-        result= 3.14 * self.radius * self.radius
+        result = 3.14 * self.radius * self.radius
         return result
 object_ball = Circle(5)
 print(object_ball.area())
@@ -19,11 +19,11 @@ print(object_ball.area())
 
 class Triangle():
     def __init__(self, base, height):
-        self.base=base
+        self.base = base
         self.height=height
     def area(self):
-        result= 12 * self.base * self.height
+        result = 12 * self.base * self.height
         return result
-object_pizza=Triangle(4,10)
+object_pizza = Triangle(4,10)
 print(object_pizza.area())
 
