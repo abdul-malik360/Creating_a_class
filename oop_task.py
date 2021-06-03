@@ -30,7 +30,7 @@ scan_consult.place(x=300, y=150)
 
 Label(root, text="Amount paid for Treatment: R", font=15, bg="#03045e", foreground="#90e0ef").place(x=40, y=260)
 amount_paid = Label(root, textvariable=paid, font=15,bg="#03045e", foreground="#caf0f8")
-amount_paid.place(x=250, y=260)
+amount_paid.place(x=285, y=260)
 
 
 class Sick():
